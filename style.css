@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    background-color: rgb(20, 0, 20);
+    height: 100vh;
+}
+.start #imge{
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    float: left;
+}
+.start{
+    margin: 10px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+    border: 1px solid rgb(112, 0, 112);
+    width: 900px;
+    height: 45px;
+    border-radius: 30px;
+    padding-left: 20px;
+
+}
+ul li{
+    margin-top: 10px;
+    height: 35px;
+}
+ul li a{
+    padding: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+ul li :active{
+    color: rgb(10, 0, 10);
+}
+ul li :hover{
+    color: rgb(248, 111, 248);
+}
+.lik{
+    margin-left: 200px;
+}
+main .ima #ima{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+main  p{
+    color: #ddd;
+    margin-left: 0px;
+}
+.main-co h2{
+    color: #ddd;
+}
+.main-co p{
+    color: #ddd;
+    width: 50%;
+    font-size: 0.8em;
+}
+.main-co{
+    width: 80%;
+}
+button{
+    color: #ddd;
+    width: 120px;
+    height: 35px ;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: 600;
+}
+#but1{
+    background-color: rgb(226, 0, 226);
+
+}
+#but2{
+    color: black;
+    height: 35px ;
+    border: none;
+}
+#but1 a{
+    text-decoration: none;
+    color: #ddd;
+}
+#but2 a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    display:inline-block ;
+}
+#but1:active{
+    background-color: rgb(0, 0, 0);
+}
+#but2:active{
+    color: #ddd;
+    background-color: rgb(14, 13, 13);
+}
+.me{
+    display: none;
+}
+#hidden{
+    background-color: rgb(41, 0, 41);
+    width: 250px;
+    border: none;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    bottom: 300px;
+    display: none;
+    border-radius:15px ;
+    animation-name: hidden;
+    animation-duration: 1s;
+    position: absolute;
+    left: 200px;
+}
+#hidden  a{
+    flex-direction: column;
+    flex-flow: column;
+    box-shadow: 0px 0px 20px rgb(44, 0, 44);
+    display: flex;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: left;
+    text-decoration:none ;
+    color: #ddd;
+    cursor: pointer;
+}
+#hidden a:hover{
+    background-color:purple;
+}
+h3{
+    color: tomato;
+}
+@media only screen and (max-width:600px){
+    .start ul{
+        display: none;
+    }
+    .start{
+        margin-top: 20px;
+    }
+    .ima{
+        margin-top: 100px;
+    }
+    .start .me{
+        display: block;
+        margin-left: 85%;
+    }
+    #but2{
+        color: black;
+        height: 40px ;
+        border: none;
+    }
+    button{
+        height: 40px;
+        width: 125px;
+        margin-top: 25px;
+    }
+    .main-co{
+       margin-top: 20px;
+    }
+
+}

@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: rgb(20, 0, 20);
+    box-sizing: border-box;
+
+}
+.start #imge{
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    float: left;
+}
+.start{
+    margin: 10px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+    border: 1px solid rgb(112, 0, 112);
+    width: 900px;
+    height: 45px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+ul li{
+    margin-top: 10px;
+}
+ul li a{
+    padding: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+ul li :active{
+    color: rgb(10, 0, 10);
+}
+ul li :hover{
+    color: rgb(248, 111, 248);
+}
+.lik{
+    margin-left: 200px;
+}
+.main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.main h4{
+    padding-top: 20px;
+}
+.main p{
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+}
+.main-content{
+    width: 60%;
+    margin: auto;
+    height: 350px;
+}
+input{
+    background-color:rgb(34, 0, 34) ;
+    border: 0.8px solid purple;
+    width: 40%;
+    height: 45px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #ddd;
+}
+input #email{
+    width: 40%;
+}
+textarea{
+    width: 70%;
+    height: 100px;
+    margin: 20px;
+    background-color:rgb(34, 0, 34) ;
+    border: 0.8px solid purple;
+    border-radius: 10px;
+    color: #fff;
+}
+textarea p{
+    display: none;
+}
+button{
+    margin-left: 240px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(34, 0, 34) ;
+    border: 0.8px solid purple;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+button:hover{
+    background-color:rgb(10, 0, 10) ;
+    color:white;
+}
+button:active{
+    width: 105px;
+    height: 45px;
+}
+.me{
+    display: none;
+}
+.me:hover #hidden
+{
+    display: block;
+}
+#hidden{
+    background-color: rgb(41, 0, 41);
+    width: 250px;
+    border: none;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    bottom: 300px;
+    display: none;
+    border-radius:15px ;
+    position: absolute;
+    left: 200px;
+}
+#hidden  a{
+    flex-direction: column;
+    flex-flow: column;
+    box-shadow: 0px 0px 20px rgb(44, 0, 44);
+    display: flex;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: left;
+    text-decoration:none ;
+    color: #ddd;
+    cursor: pointer;
+}
+#hidden a:hover{
+    background-color:purple;
+}
+.footer{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+.footer a{
+    margin: 10px;
+}
+@media only screen and (max-width:600px){
+    .start ul{
+        display: none;
+    }
+    .start{
+        margin-top: 20px;
+    }
+    .ima{
+        margin-top: 100px;
+    }
+    .start .me{
+        display: block;
+        margin-left: 85%;
+    }
+    .main{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+    }
+    .main-content{
+        width: 90%;
+        margin: auto;
+        height: 350px;
+    }
+    input{
+        background-color:rgb(34, 0, 34) ;
+        border: 0.8px solid purple;
+        width: 50%;
+        height: 45px;
+        margin: 20px;
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+    input #email{
+        width: 40%;
+    }
+    textarea{
+        width: 80%;
+        height: 100px;
+        margin: 20px;
+        background-color:rgb(34, 0, 34) ;
+        border: 0.8px solid purple;
+        border-radius: 10px;
+        color: #fff;
+        margin-left: 60px;
+
+    }
+    textarea p{
+        display: none;
+    }
+    button{
+        margin-left:40%;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        background-color:rgb(34, 0, 34) ;
+        border: 0.8px solid purple;
+        border-radius: 10px;
+        color: #fff;
+        margin-top: 10px;
+    }
+    main p{
+        font-size: 0.9em;
+    }
+}
